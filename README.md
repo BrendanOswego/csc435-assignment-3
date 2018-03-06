@@ -1,4 +1,4 @@
-## CSC435 Web Services Assignment 2
+## CSC435 Web Services Assignment 3
 
 Description of the project can be found in the `INSTRUCTIONS.md` file.
 
@@ -16,14 +16,14 @@ Description of the project can be found in the `INSTRUCTIONS.md` file.
 * Extract the file
 
 # Maven commands, and stop/start Tomcat
-* Once Maven is installed the commands in the `scripts` directory should work
-* To install the Maven dependencies and plugins run `./scripts/install.sh`
-* To clean the target folder run `./scripts/clean.sh`
-* To package the .war file run `./scripts/package.sh`
-* To deploy the .war file to Tomcat run `./scripts/deploy.sh`
-* To start Tomcat run `./scripts/start.sh`
-* To stop Tomcat run `./scripts/shutdown.sh`
+* Once Maven is installed the commands in the `scripts` directory should work. When running commands, `cd scripts` so paths work correctly
+* To install the Maven dependencies and plugins run `./install.sh`
+* To clean the target folder run `./clean.sh`
+* To package the .war file run `./package.sh`
+* To deploy the .war file to Tomcat run `./deploy.sh`
+* To start Tomcat run `./start.sh`
+* To stop Tomcat run `./shutdown.sh`
 
 # Important Notes
 * For information on Java Servlets [here is a good article](http://www.ntu.edu.sg/home/ehchua/programming/java/JavaServlets.html) explaining the basics.
-* Tomcat will be running on `localhost:8080/assignment-2` as the base directory of the Web Application
+* Tomcat will be running on `localhost:8080/assignment-3` as the base directory of the Web Application
